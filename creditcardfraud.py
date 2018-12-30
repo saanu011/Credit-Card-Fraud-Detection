@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import scipy,sklearn
 
-data=pd.read_csv('creditcard.csv')
+data=pd.read_csv('data-file.csv')
 print(data.columns)
 print(data.shape)
 print(data.describe())
